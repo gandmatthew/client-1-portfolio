@@ -3,7 +3,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
 
+.navbar {
+  position: absolute;
+  top: 0;
 }
 
 .center { 
@@ -13,7 +17,7 @@
   min-height: 85vh;
 }
 
-.grid {
+/* .grid {
   display: grid;
   gap: 5vh 5vw;
   grid-template-columns: auto auto auto auto;
@@ -29,19 +33,4 @@
   .grid {
     gap: 10px;
   }
-}
-
-/* 
-.grid {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  max-width: 100%;
-  width: 100%;
-}
-
-.card {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  text-align: center;
 } */

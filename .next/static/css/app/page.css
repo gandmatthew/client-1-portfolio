@@ -6,7 +6,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
 
+.page_navbar__chktt {
+  position: absolute;
+  top: 0;
 }
 
 .page_center__5oHG7 { 
@@ -16,36 +20,66 @@
   min-height: 85vh;
 }
 
-.page_grid__f5Kdy {
+/* .grid {
   display: grid;
-  grid-gap: 5vh 5vw;
   gap: 5vh 5vw;
   grid-template-columns: auto auto auto auto;
 }
 
-.page_card__QV0Om {
+.card {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5vh 5vw;
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  .page_grid__f5Kdy {
+  .grid {
     gap: 10px;
   }
-}
-
-/* 
-.grid {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  max-width: 100%;
-  width: 100%;
-}
-
-.card {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  text-align: center;
 } */
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Navbar/Navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_container__zauSF ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 1;
+    padding: 0;
+    outline: 1px solid black;
+}
+
+.Navbar_container__zauSF li {
+    float: left;
+}
+
+.Navbar_container__zauSF li a {
+    display: block;
+    text-align: center;
+    padding: 1vh 1vw;
+    text-decoration: none;
+}
+
+.Navbar_container__zauSF li a:hover {
+    background-color: yellowgreen;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Projects/Projects.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Projects_grid__pXyJr {
+    display: grid;
+    grid-gap: 5vh 5vw;
+    gap: 5vh 5vw;
+    grid-template-columns: auto auto auto auto;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Projects/assests/Card.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.Card_card__XAQD_ {
+    border: 1px solid black;
+    padding: 5vh 5vw;
+    text-align: center;
+}
+
+.Card_card__XAQD_:hover {
+    background-color: yellowgreen;
+}

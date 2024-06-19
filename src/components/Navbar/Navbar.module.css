@@ -1,0 +1,22 @@
+.container ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 1;
+    padding: 0;
+    outline: 1px solid black;
+}
+
+.container li {
+    float: left;
+}
+
+.container li a {
+    display: block;
+    text-align: center;
+    padding: 1vh 1vw;
+    text-decoration: none;
+}
+
+.container li a:hover {
+    background-color: yellowgreen;
+}
