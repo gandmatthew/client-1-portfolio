@@ -1,0 +1,51 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_container__aoG4z {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.page_center__5oHG7 { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  min-height: 85vh;
+}
+
+.page_grid__f5Kdy {
+  display: grid;
+  grid-gap: 5vh 5vw;
+  gap: 5vh 5vw;
+  grid-template-columns: auto auto auto auto;
+}
+
+.page_card__QV0Om {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5vh 5vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .page_grid__f5Kdy {
+    gap: 10px;
+  }
+}
+
+/* 
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 100%;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+} */
