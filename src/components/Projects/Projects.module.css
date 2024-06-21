@@ -2,4 +2,5 @@
     display: grid;
     gap: 5vh 5vw;
     grid-template-columns: auto auto auto auto;
+    margin: 10px;
 }

@@ -6,8 +6,8 @@ interface CardProps {
 
 export const Card: React.FC<CardProps> = ({title}) => {
     return (
-        <span className={styles.card}>
+        <a className={styles.card}>
             {title}
-        </span>
+        </a>
     );
 };

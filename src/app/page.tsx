@@ -5,7 +5,7 @@ import { Projects } from "@/components/Projects/Projects";
 
 export default function Home() {
 
-  let projects = ["Project 1", "Project 2", "Project 3", "Project 4", "Project 5", "Project 6", "Project 7", "Project 8"]
+  let projects = ["Project", "Project", "Project", "Project", "Project", "Project", "Project", "Project", "Project", "Project", "Project", "Project"]
 
   return (
     <>

@@ -9,7 +9,8 @@
 }
 
 .page_navbar__chktt {
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
 }
 
@@ -17,26 +18,10 @@
   display: flex; 
   justify-content: center; 
   align-items: center;
-  min-height: 85vh;
+  min-height: 75vh;
 }
 
-/* .grid {
-  display: grid;
-  gap: 5vh 5vw;
-  grid-template-columns: auto auto auto auto;
-}
 
-.card {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 5vh 5vw;
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-  .grid {
-    gap: 10px;
-  }
-} */
 /*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Navbar/Navbar.module.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************/
@@ -45,7 +30,7 @@
     overflow: hidden;
     margin: 1;
     padding: 0;
-    outline: 1px solid black;
+    outline: 1px solid white;
 }
 
 .Navbar_container__zauSF li {
@@ -70,12 +55,13 @@
     grid-gap: 5vh 5vw;
     gap: 5vh 5vw;
     grid-template-columns: auto auto auto auto;
+    margin: 10px;
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Projects/assests/Card.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************/
 .Card_card__XAQD_ {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 5vh 5vw;
     text-align: center;
 }

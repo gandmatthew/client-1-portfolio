@@ -12,8 +12,8 @@ export const Projects: React.FC<ProjectsProps> = ({cards}) => {
     return (
         <div className={styles.grid}>
             {
-                cards.map((c, index) => <Card key={index} title={c}></Card>)
+                cards.map((c, index) => <Card key={index} title={`${c} ${index}`}></Card>)
             }
         </div>
     )
-}
+}   

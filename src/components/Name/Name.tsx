@@ -1,7 +1,12 @@
+import { NameGradient } from "./assests/NameGradient"
+import styles from './Name.module.css'
+
 export const Name = () => {
     return (
         <h1>
-            Adam Kennedy
+            <a>
+                Adam Kennedy
+            </a>
         </h1>
     )
 }
